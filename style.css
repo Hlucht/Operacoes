@@ -1,25 +1,42 @@
+body{
+    /* background-color: #e89ff8; */
+
+    background: linear-gradient(#F6D2FE, white) fixed;
+}
 .calcular{
-    background-image: linear-gradient(#F6D2FE, white);
+    background-color: white;
     text-align: center;
-    padding: 150px 40px 40px 40px;
+    width: 600px;
+    padding: 40px 40px 40px 40px;
     margin: auto;
-    background-color: #e89ff8;
+    margin-top: 100px;
     border-radius: 6px;
+    color: rgb(38, 13, 90);
+    box-shadow: 0px 0px 10px 0px
 }
 
-.calcular h1{
-    color: rgb(124, 87, 199);
-}
-
-.calcular h2{
+.calcular h1, h2{
     color: rgb(124, 87, 199);
 }
 
 .calcular button{
+    border-radius: 10px;
     background-color: #edc8f5;
     color: rgb(124, 87, 199);
     width: 100px;
     margin: 1vw;
-    padding: 2px;
+    padding: 0.3em;
     border-style: hidden;
+}
+
+.calcular button:hover{
+    background-color: #edc8f5cb;
+    color: rgb(124, 87, 199);
+}
+
+input{
+    border-radius: 8px;
+    border:rgb(124, 87, 199) solid 1px;
+    height: 1.5em;
+    width: 12em;
 }
