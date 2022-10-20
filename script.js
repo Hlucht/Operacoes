@@ -23,12 +23,8 @@ function multiplicacao(){
 }
 
 function divisao(){
-    if(numero1.value > 0){
         const total = parseInt(numero1.value) / parseInt(numero2.value);
         resultado.innerText = `Resultado: ${total}`;
-    }else{
-        alert(" Resultado Indeterminado ");
-    }
 }
 
 button_soma.addEventListener('click', soma);
