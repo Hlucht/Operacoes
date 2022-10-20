@@ -1,0 +1,25 @@
+.calcular{
+    background-image: linear-gradient(#F6D2FE, white);
+    text-align: center;
+    padding: 150px 40px 40px 40px;
+    margin: auto;
+    background-color: #e89ff8;
+    border-radius: 6px;
+}
+
+.calcular h1{
+    color: rgb(124, 87, 199);
+}
+
+.calcular h2{
+    color: rgb(124, 87, 199);
+}
+
+.calcular button{
+    background-color: #edc8f5;
+    color: rgb(124, 87, 199);
+    width: 100px;
+    margin: 1vw;
+    padding: 2px;
+    border-style: hidden;
+}
