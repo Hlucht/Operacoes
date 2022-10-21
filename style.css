@@ -1,8 +1,7 @@
 body{
-    /* background-color: #e89ff8; */
-
     background: linear-gradient(#F6D2FE, white) fixed;
 }
+
 .calcular{
     background-color: white;
     text-align: center;
